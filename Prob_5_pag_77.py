@@ -1,8 +1,8 @@
 vocale = ['a', 'o', 'i', 'e', 'u', 'A', 'O', 'U', 'E', 'I']
 total = []
 
-# with open('input.txt', 'w') as f:
-#     f.write('')
+ with open('input.txt', 'w') as f:
+     f.write('')
 
 f = open('input.txt')
 for i in f.read():
