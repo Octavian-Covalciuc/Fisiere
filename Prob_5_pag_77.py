@@ -1,8 +1,7 @@
 vocale = ['a', 'o', 'i', 'e', 'u', 'A', 'O', 'U', 'E', 'I']
 total = []
 
- with open('input.txt', 'w') as f:
-     f.write('')
+print('', file=open('input.txt', 'w'))
 
 f = open('input.txt')
 for i in f.read():
